@@ -4,7 +4,7 @@ Converts
 
 ```javascript
 useEffect(() => {
-    async fetchData() {
+    const fetchData = async () => {
         // await fetch('endpoint')
     }
 
