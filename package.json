@@ -1,0 +1,30 @@
+{
+  "name": "use-mounted",
+  "version": "0.0.1",
+  "description": "mounted hook that allows to return promises",
+  "main": "use-mounted.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "react",
+    "use-mounted",
+    "hooks",
+    "async",
+    "await",
+    "promise"
+  ],
+  "peerDependencies": {
+    "react": ">=16.8.0"
+  },
+  "author": "Michael Zanggl",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/preset-env": "^7.4.5",
+    "@babel/preset-react": "^7.0.0",
+    "babel-jest": "^24.8.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-test-renderer": "^16.8.6"
+  }
+}
