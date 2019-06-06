@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import { act } from 'react-dom/test-utils';
 import useMounted from '../use-mounted'
 
-function Counter() {
+function Status() {
     const [status, setStatus] = useState('initial')
 
     useMounted(() => setStatus('mounted'))
@@ -28,10 +28,10 @@ afterEach(() => {
   container = null;
 });
 
-it('can render and update a counter', () => {
+it('mounted only runs one time and not on updates', () => {
     // Test first render and effect
     act(() => {
-      ReactDOM.render(<Counter />, container);
+      ReactDOM.render(<Status />, container);
     });
 
     const button = container.querySelector('button');
