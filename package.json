@@ -1,6 +1,6 @@
 {
   "name": "use-mounted",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "mounted hook that allows to return promises",
   "main": "use-mounted.js",
   "scripts": {
